@@ -6,6 +6,81 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E04D277A2DEC7BB600A440F6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D27792DEC7BB600A440F6 /* ErrorView.swift */; };
+		E04D277C2DED08D000A440F6 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = E04D277B2DED08D000A440F6 /* Documentation.docc */; };
+		E0644C0F2DEBE475009E36E0 /* DinoGridViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0644C0E2DEBE46A009E36E0 /* DinoGridViewSnapshotTests.swift */; };
+		E0644C112DEBE4A7009E36E0 /* DinoFilesViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0644C102DEBE49B009E36E0 /* DinoFilesViewSnapshotTests.swift */; };
+		E0644C132DEBE55A009E36E0 /* MockDinoFileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0644C122DEBE55A009E36E0 /* MockDinoFileRepository.swift */; };
+		E0644C142DEBEE17009E36E0 /* TestFileResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DED2DE71BE400F07C7F /* TestFileResources.swift */; };
+		E0644C152DEBEE9A009E36E0 /* optional-dino-files.json in Resources */ = {isa = PBXBuildFile; fileRef = E0D78F1E2DE5594900750743 /* optional-dino-files.json */; };
+		E0644C162DEBEE9A009E36E0 /* broken-dino-files.json in Resources */ = {isa = PBXBuildFile; fileRef = E0D78F132DE533CF00750743 /* broken-dino-files.json */; };
+		E0644C192DEBF1E9009E36E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0644C182DEBF1E9009E36E0 /* LaunchScreen.storyboard */; };
+		E0B91DD62DE67AA400F07C7F /* DinoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DD52DE67AA400F07C7F /* DinoListView.swift */; };
+		E0B91DD82DE67BA400F07C7F /* DinoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DD72DE67BA400F07C7F /* DinoListCell.swift */; };
+		E0B91DDA2DE67BB600F07C7F /* DinoGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DD92DE67BB200F07C7F /* DinoGridCell.swift */; };
+		E0B91DDC2DE6808200F07C7F /* DinoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DDB2DE6807D00F07C7F /* DinoGridView.swift */; };
+		E0B91DDE2DE6832C00F07C7F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B91DDD2DE6832C00F07C7F /* Colors.xcassets */; };
+		E0B91DE02DE6889300F07C7F /* ColorResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DDF2DE6888D00F07C7F /* ColorResources.swift */; };
+		E0B91DE22DE68A2300F07C7F /* IconResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DE12DE68A1F00F07C7F /* IconResources.swift */; };
+		E0B91DE42DE69AF500F07C7F /* MatchedGeometryResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DE32DE69AED00F07C7F /* MatchedGeometryResources.swift */; };
+		E0B91DE92DE71A5300F07C7F /* MapPinShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DE82DE71A5300F07C7F /* MapPinShape.swift */; };
+		E0B91DEB2DE71B0B00F07C7F /* FileResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DEA2DE71B0600F07C7F /* FileResources.swift */; };
+		E0B91DEE2DE71BF200F07C7F /* TestFileResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DED2DE71BE400F07C7F /* TestFileResources.swift */; };
+		E0B91DF02DE7203800F07C7F /* ExpectedErrorResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DEF2DE7203000F07C7F /* ExpectedErrorResources.swift */; };
+		E0B91DF22DE72CFE00F07C7F /* AccessibilityIDResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DF12DE72CF200F07C7F /* AccessibilityIDResources.swift */; };
+		E0B91DF32DE7312700F07C7F /* AccessibilityIDResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DF12DE72CF200F07C7F /* AccessibilityIDResources.swift */; };
+		E0B91DF52DE7353300F07C7F /* DisplayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DF42DE7353300F07C7F /* DisplayType.swift */; };
+		E0B91DF62DE7353D00F07C7F /* DisplayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DF42DE7353300F07C7F /* DisplayType.swift */; };
+		E0B91DF92DE7416400F07C7F /* DinoInfoSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DF82DE7416400F07C7F /* DinoInfoSection.swift */; };
+		E0B91DFB2DE744FE00F07C7F /* DinoMapInfoSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DFA2DE744FE00F07C7F /* DinoMapInfoSection.swift */; };
+		E0D78EE42DE5166600750743 /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78EE12DE5166600750743 /* NavigationUITests.swift */; };
+		E0D78EE52DE5166600750743 /* Dino_BestiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78EE22DE5166600750743 /* Dino_BestiaryUITestsLaunchTests.swift */; };
+		E0D78EE82DE5166900750743 /* JSONDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78EE62DE5166900750743 /* JSONDecodingTests.swift */; };
+		E0D78EED2DE5166B00750743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D78EE92DE5166B00750743 /* Assets.xcassets */; };
+		E0D78EEF2DE5166B00750743 /* DinoBestiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78EEB2DE5166B00750743 /* DinoBestiaryApp.swift */; };
+		E0D78EF92DE51B1A00750743 /* DinoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78EF82DE51B1700750743 /* DinoSize.swift */; };
+		E0D78EFC2DE51B2D00750743 /* DinoClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78EFB2DE51B2900750743 /* DinoClassification.swift */; };
+		E0D78EFE2DE51B3E00750743 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78EFD2DE51B3B00750743 /* Period.swift */; };
+		E0D78F002DE51C3A00750743 /* DiscoverySite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78EFF2DE51C3600750743 /* DiscoverySite.swift */; };
+		E0D78F022DE51C4B00750743 /* FossilLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F012DE51C4600750743 /* FossilLocation.swift */; };
+		E0D78F042DE51D7900750743 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F032DE51D7600750743 /* Coordinates.swift */; };
+		E0D78F062DE51F0400750743 /* Dino.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F052DE51EFE00750743 /* Dino.swift */; };
+		E0D78F092DE5217F00750743 /* DinoFileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F082DE5217A00750743 /* DinoFileRepository.swift */; };
+		E0D78F0B2DE5230E00750743 /* JSONDinoFileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F0A2DE522FD00750743 /* JSONDinoFileRepository.swift */; };
+		E0D78F0D2DE5263F00750743 /* DinoRepositoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F0C2DE5263900750743 /* DinoRepositoryError.swift */; };
+		E0D78F102DE52B2300750743 /* DinoRepositoryError+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F0F2DE52B1A00750743 /* DinoRepositoryError+Equatable.swift */; };
+		E0D78F112DE52EAA00750743 /* dino-files.json in Resources */ = {isa = PBXBuildFile; fileRef = E0D78EF12DE5168100750743 /* dino-files.json */; };
+		E0D78F142DE533D500750743 /* broken-dino-files.json in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F132DE533CF00750743 /* broken-dino-files.json */; };
+		E0D78F152DE538B700750743 /* broken-dino-files.json in Resources */ = {isa = PBXBuildFile; fileRef = E0D78F132DE533CF00750743 /* broken-dino-files.json */; };
+		E0D78F182DE53C2800750743 /* DinoFilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F172DE53C2500750743 /* DinoFilesView.swift */; };
+		E0D78F1A2DE53C3000750743 /* DinoFilesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F192DE53C2B00750743 /* DinoFilesViewModel.swift */; };
+		E0D78F1D2DE551EC00750743 /* SafeAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F1C2DE551E700750743 /* SafeAsyncImage.swift */; };
+		E0D78F1F2DE5595700750743 /* optional-dino-files.json in Resources */ = {isa = PBXBuildFile; fileRef = E0D78F1E2DE5594900750743 /* optional-dino-files.json */; };
+		E0D78F222DE5FA6000750743 /* DinoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F212DE5FA5600750743 /* DinoListViewModelTests.swift */; };
+		E0D78F242DE5FEE000750743 /* DinoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F232DE5FEDC00750743 /* DinoDetailView.swift */; };
+		E0D78F272DE6175500750743 /* DinoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F262DE6175200750743 /* DinoMock.swift */; };
+		E0D78F282DE617B600750743 /* DinoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F262DE6175200750743 /* DinoMock.swift */; };
+		E0D78F2E2DE6236700750743 /* Dino+Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F2D2DE6236300750743 /* Dino+Presentation.swift */; };
+		E0D78F302DE624E100750743 /* AggressivenessRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F2F2DE624DB00750743 /* AggressivenessRate.swift */; };
+		E0D78F322DE6316E00750743 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E0D78F312DE6316E00750743 /* Localizable.xcstrings */; };
+		E0D78F352DE6322900750743 /* StringResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F342DE6320E00750743 /* StringResources.swift */; };
+		E0D78F392DE639C300750743 /* LocationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D78F382DE639BE00750743 /* LocationMap.swift */; };
+		E0DC2B642DE7B9C90090883E /* InlineSnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = E0DC2B632DE7B9C90090883E /* InlineSnapshotTesting */; };
+		E0DC2B662DE7B9C90090883E /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = E0DC2B652DE7B9C90090883E /* SnapshotTesting */; };
+		E0DC2B682DE7B9C90090883E /* SnapshotTestingCustomDump in Frameworks */ = {isa = PBXBuildFile; productRef = E0DC2B672DE7B9C90090883E /* SnapshotTestingCustomDump */; };
+		E0DC2B6B2DE7DAAD0090883E /* NamespaceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B6A2DE7DAAD0090883E /* NamespaceWrapper.swift */; };
+		E0DC2B6D2DEA28A90090883E /* DinoListCellSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B6C2DEA28A60090883E /* DinoListCellSnapshotTests.swift */; };
+		E0DC2B6F2DEB05910090883E /* ColorResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B91DDF2DE6888D00F07C7F /* ColorResources.swift */; };
+		E0DC2B732DEB29AE0090883E /* SnapshotPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B722DEB29AE0090883E /* SnapshotPresets.swift */; };
+		E0DC2B752DEB2A300090883E /* DinoGridCellSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B742DEB2A260090883E /* DinoGridCellSnapshotTests.swift */; };
+		E0DC2B772DEB2CC10090883E /* AggressivenessRateSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B762DEB2CB50090883E /* AggressivenessRateSnapshotTests.swift */; };
+		E0DC2B7B2DEBA9680090883E /* IsSnapshotTestingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B7A2DEBA9680090883E /* IsSnapshotTestingKey.swift */; };
+		E0DC2B7D2DEBB0230090883E /* DinoDetailViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B7C2DEBB0190090883E /* DinoDetailViewSnapshotTests.swift */; };
+		E0DC2B812DEBBD4C0090883E /* DinoListViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B802DEBBD400090883E /* DinoListViewSnapshotTests.swift */; };
+		E0DC2B832DEBBFE70090883E /* ImageResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC2B822DEBBFE10090883E /* ImageResources.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E0D78EB92DE5151600750743 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,31 +96,82 @@
 			remoteGlobalIDString = E0D78EAA2DE5151400750743;
 			remoteInfo = "Dino Bestiary";
 		};
+		E0DC2B5A2DE7B95D0090883E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0D78EA32DE5151400750743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0D78EAA2DE5151400750743;
+			remoteInfo = "Dino Bestiary";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E04D27792DEC7BB600A440F6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		E04D277B2DED08D000A440F6 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		E0644C0E2DEBE46A009E36E0 /* DinoGridViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoGridViewSnapshotTests.swift; sourceTree = "<group>"; };
+		E0644C102DEBE49B009E36E0 /* DinoFilesViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoFilesViewSnapshotTests.swift; sourceTree = "<group>"; };
+		E0644C122DEBE55A009E36E0 /* MockDinoFileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDinoFileRepository.swift; sourceTree = "<group>"; };
+		E0644C182DEBF1E9009E36E0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0B91DD52DE67AA400F07C7F /* DinoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoListView.swift; sourceTree = "<group>"; };
+		E0B91DD72DE67BA400F07C7F /* DinoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoListCell.swift; sourceTree = "<group>"; };
+		E0B91DD92DE67BB200F07C7F /* DinoGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoGridCell.swift; sourceTree = "<group>"; };
+		E0B91DDB2DE6807D00F07C7F /* DinoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoGridView.swift; sourceTree = "<group>"; };
+		E0B91DDD2DE6832C00F07C7F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E0B91DDF2DE6888D00F07C7F /* ColorResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorResources.swift; sourceTree = "<group>"; };
+		E0B91DE12DE68A1F00F07C7F /* IconResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconResources.swift; sourceTree = "<group>"; };
+		E0B91DE32DE69AED00F07C7F /* MatchedGeometryResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryResources.swift; sourceTree = "<group>"; };
+		E0B91DE82DE71A5300F07C7F /* MapPinShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinShape.swift; sourceTree = "<group>"; };
+		E0B91DEA2DE71B0600F07C7F /* FileResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileResources.swift; sourceTree = "<group>"; };
+		E0B91DED2DE71BE400F07C7F /* TestFileResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFileResources.swift; sourceTree = "<group>"; };
+		E0B91DEF2DE7203000F07C7F /* ExpectedErrorResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedErrorResources.swift; sourceTree = "<group>"; };
+		E0B91DF12DE72CF200F07C7F /* AccessibilityIDResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIDResources.swift; sourceTree = "<group>"; };
+		E0B91DF42DE7353300F07C7F /* DisplayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayType.swift; sourceTree = "<group>"; };
+		E0B91DF82DE7416400F07C7F /* DinoInfoSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoInfoSection.swift; sourceTree = "<group>"; };
+		E0B91DFA2DE744FE00F07C7F /* DinoMapInfoSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoMapInfoSection.swift; sourceTree = "<group>"; };
 		E0D78EAB2DE5151400750743 /* Dino Bestiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dino Bestiary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D78EB82DE5151600750743 /* Dino BestiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dino BestiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D78EC22DE5151600750743 /* Dino BestiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dino BestiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D78EE12DE5166600750743 /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
+		E0D78EE22DE5166600750743 /* Dino_BestiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dino_BestiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0D78EE62DE5166900750743 /* JSONDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingTests.swift; sourceTree = "<group>"; };
+		E0D78EE92DE5166B00750743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0D78EEB2DE5166B00750743 /* DinoBestiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoBestiaryApp.swift; sourceTree = "<group>"; };
+		E0D78EF12DE5168100750743 /* dino-files.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "dino-files.json"; sourceTree = "<group>"; };
+		E0D78EF82DE51B1700750743 /* DinoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoSize.swift; sourceTree = "<group>"; };
+		E0D78EFB2DE51B2900750743 /* DinoClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoClassification.swift; sourceTree = "<group>"; };
+		E0D78EFD2DE51B3B00750743 /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		E0D78EFF2DE51C3600750743 /* DiscoverySite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySite.swift; sourceTree = "<group>"; };
+		E0D78F012DE51C4600750743 /* FossilLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FossilLocation.swift; sourceTree = "<group>"; };
+		E0D78F032DE51D7600750743 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		E0D78F052DE51EFE00750743 /* Dino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dino.swift; sourceTree = "<group>"; };
+		E0D78F082DE5217A00750743 /* DinoFileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoFileRepository.swift; sourceTree = "<group>"; };
+		E0D78F0A2DE522FD00750743 /* JSONDinoFileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDinoFileRepository.swift; sourceTree = "<group>"; };
+		E0D78F0C2DE5263900750743 /* DinoRepositoryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoRepositoryError.swift; sourceTree = "<group>"; };
+		E0D78F0F2DE52B1A00750743 /* DinoRepositoryError+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DinoRepositoryError+Equatable.swift"; sourceTree = "<group>"; };
+		E0D78F132DE533CF00750743 /* broken-dino-files.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "broken-dino-files.json"; sourceTree = "<group>"; };
+		E0D78F172DE53C2500750743 /* DinoFilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoFilesView.swift; sourceTree = "<group>"; };
+		E0D78F192DE53C2B00750743 /* DinoFilesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoFilesViewModel.swift; sourceTree = "<group>"; };
+		E0D78F1C2DE551E700750743 /* SafeAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAsyncImage.swift; sourceTree = "<group>"; };
+		E0D78F1E2DE5594900750743 /* optional-dino-files.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "optional-dino-files.json"; sourceTree = "<group>"; };
+		E0D78F212DE5FA5600750743 /* DinoListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoListViewModelTests.swift; sourceTree = "<group>"; };
+		E0D78F232DE5FEDC00750743 /* DinoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoDetailView.swift; sourceTree = "<group>"; };
+		E0D78F262DE6175200750743 /* DinoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoMock.swift; sourceTree = "<group>"; };
+		E0D78F2D2DE6236300750743 /* Dino+Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dino+Presentation.swift"; sourceTree = "<group>"; };
+		E0D78F2F2DE624DB00750743 /* AggressivenessRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggressivenessRate.swift; sourceTree = "<group>"; };
+		E0D78F312DE6316E00750743 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E0D78F342DE6320E00750743 /* StringResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringResources.swift; sourceTree = "<group>"; };
+		E0D78F382DE639BE00750743 /* LocationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMap.swift; sourceTree = "<group>"; };
+		E0DC2B562DE7B95D0090883E /* Dino BestiarySnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dino BestiarySnapshotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DC2B6A2DE7DAAD0090883E /* NamespaceWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamespaceWrapper.swift; sourceTree = "<group>"; };
+		E0DC2B6C2DEA28A60090883E /* DinoListCellSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoListCellSnapshotTests.swift; sourceTree = "<group>"; };
+		E0DC2B722DEB29AE0090883E /* SnapshotPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotPresets.swift; sourceTree = "<group>"; };
+		E0DC2B742DEB2A260090883E /* DinoGridCellSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoGridCellSnapshotTests.swift; sourceTree = "<group>"; };
+		E0DC2B762DEB2CB50090883E /* AggressivenessRateSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggressivenessRateSnapshotTests.swift; sourceTree = "<group>"; };
+		E0DC2B7A2DEBA9680090883E /* IsSnapshotTestingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSnapshotTestingKey.swift; sourceTree = "<group>"; };
+		E0DC2B7C2DEBB0190090883E /* DinoDetailViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoDetailViewSnapshotTests.swift; sourceTree = "<group>"; };
+		E0DC2B802DEBBD400090883E /* DinoListViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoListViewSnapshotTests.swift; sourceTree = "<group>"; };
+		E0DC2B822DEBBFE10090883E /* ImageResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E0D78EAD2DE5151400750743 /* Dino Bestiary */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Dino Bestiary";
-			sourceTree = "<group>";
-		};
-		E0D78EBB2DE5151600750743 /* Dino BestiaryTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Dino BestiaryTests";
-			sourceTree = "<group>";
-		};
-		E0D78EC52DE5151600750743 /* Dino BestiaryUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Dino BestiaryUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E0D78EA82DE5151400750743 /* Frameworks */ = {
@@ -69,15 +195,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0DC2B532DE7B95D0090883E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DC2B682DE7B9C90090883E /* SnapshotTestingCustomDump in Frameworks */,
+				E0DC2B642DE7B9C90090883E /* InlineSnapshotTesting in Frameworks */,
+				E0DC2B662DE7B9C90090883E /* SnapshotTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E04D277D2DEE44B800A440F6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F1B2DE551E000750743 /* SharedComponents */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E04D277F2DEE475100A440F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F332DE6320700750743 /* Constants */,
+				E0D78F2C2DE6235C00750743 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E04D27802DEE47E700A440F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC2B6E2DEAF6760090883E /* Constants */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E04D27812DEE489C00A440F6 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC2B792DEBA9580090883E /* Environment */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		E0644C172DEBF1D4009E36E0 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E0644C182DEBF1E9009E36E0 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		E0B91DD42DE67A8B00F07C7F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E0B91DD92DE67BB200F07C7F /* DinoGridCell.swift */,
+				E0B91DDB2DE6807D00F07C7F /* DinoGridView.swift */,
+				E0B91DD72DE67BA400F07C7F /* DinoListCell.swift */,
+				E0B91DD52DE67AA400F07C7F /* DinoListView.swift */,
+				E04D27792DEC7BB600A440F6 /* ErrorView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E0B91DEC2DE71BCF00F07C7F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E0B91DEF2DE7203000F07C7F /* ExpectedErrorResources.swift */,
+				E0B91DED2DE71BE400F07C7F /* TestFileResources.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E0B91DF72DE7408600F07C7F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E0B91DFA2DE744FE00F07C7F /* DinoMapInfoSection.swift */,
+				E0B91DF82DE7416400F07C7F /* DinoInfoSection.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		E0D78EA22DE5151400750743 = {
 			isa = PBXGroup;
 			children = (
-				E0D78EAD2DE5151400750743 /* Dino Bestiary */,
-				E0D78EBB2DE5151600750743 /* Dino BestiaryTests */,
-				E0D78EC52DE5151600750743 /* Dino BestiaryUITests */,
+				E0D78EF02DE5166F00750743 /* Resources */,
+				E0D78EEC2DE5166B00750743 /* Dino Bestiary */,
+				E0D78EE72DE5166900750743 /* Dino BestiaryTests */,
+				E0D78EE32DE5166600750743 /* Dino BestiaryUITests */,
+				E0DC2B602DE7B9660090883E /* Dino BestiarySnapshotTests */,
 				E0D78EAC2DE5151400750743 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +297,266 @@
 				E0D78EAB2DE5151400750743 /* Dino Bestiary.app */,
 				E0D78EB82DE5151600750743 /* Dino BestiaryTests.xctest */,
 				E0D78EC22DE5151600750743 /* Dino BestiaryUITests.xctest */,
+				E0DC2B562DE7B95D0090883E /* Dino BestiarySnapshotTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D78EE32DE5166600750743 /* Dino BestiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78EE12DE5166600750743 /* NavigationUITests.swift */,
+				E0D78EE22DE5166600750743 /* Dino_BestiaryUITestsLaunchTests.swift */,
+			);
+			path = "Dino BestiaryUITests";
+			sourceTree = "<group>";
+		};
+		E0D78EE72DE5166900750743 /* Dino BestiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F212DE5FA5600750743 /* DinoListViewModelTests.swift */,
+				E0D78EE62DE5166900750743 /* JSONDecodingTests.swift */,
+				E0B91DEC2DE71BCF00F07C7F /* Constants */,
+				E0D78F0E2DE52B0C00750743 /* Extension */,
+				E0D78F252DE6174B00750743 /* Mock */,
+				E0D78F122DE533C300750743 /* Resources */,
+			);
+			path = "Dino BestiaryTests";
+			sourceTree = "<group>";
+		};
+		E0D78EEC2DE5166B00750743 /* Dino Bestiary */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC2B782DEBA94A0090883E /* App */,
+				E04D27812DEE489C00A440F6 /* Configs */,
+				E0D78EF22DE516CB00750743 /* Data */,
+				E0D78EF32DE516D000750743 /* Domain */,
+				E0D78EF42DE516D500750743 /* Presentation */,
+				E04D27802DEE47E700A440F6 /* Utils */,
+			);
+			path = "Dino Bestiary";
+			sourceTree = "<group>";
+		};
+		E0D78EF02DE5166F00750743 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78EF12DE5168100750743 /* dino-files.json */,
+				E0D78EE92DE5166B00750743 /* Assets.xcassets */,
+				E0D78F312DE6316E00750743 /* Localizable.xcstrings */,
+				E0B91DDD2DE6832C00F07C7F /* Colors.xcassets */,
+				E04D277B2DED08D000A440F6 /* Documentation.docc */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0D78EF22DE516CB00750743 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78EF52DE51A2200750743 /* Model */,
+				E0D78EF62DE51A2800750743 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E0D78EF32DE516D000750743 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78EF72DE51B0A00750743 /* Model */,
+				E0D78F072DE5217200750743 /* Repository */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E0D78EF42DE516D500750743 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E04D277D2DEE44B800A440F6 /* Core */,
+				E0D78F202DE5FA0800750743 /* DinoDetailView */,
+				E0D78F162DE53C1900750743 /* DinoFilesView */,
+				E0644C172DEBF1D4009E36E0 /* LaunchScreen */,
+				E04D277F2DEE475100A440F6 /* Utils */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E0D78EF52DE51A2200750743 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F032DE51D7600750743 /* Coordinates.swift */,
+				E0D78F052DE51EFE00750743 /* Dino.swift */,
+				E0D78EFF2DE51C3600750743 /* DiscoverySite.swift */,
+				E0D78F012DE51C4600750743 /* FossilLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0D78EF62DE51A2800750743 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F0A2DE522FD00750743 /* JSONDinoFileRepository.swift */,
+				E0644C122DEBE55A009E36E0 /* MockDinoFileRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E0D78EF72DE51B0A00750743 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78EFB2DE51B2900750743 /* DinoClassification.swift */,
+				E0D78F0C2DE5263900750743 /* DinoRepositoryError.swift */,
+				E0D78EF82DE51B1700750743 /* DinoSize.swift */,
+				E0D78EFD2DE51B3B00750743 /* Period.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0D78F072DE5217200750743 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F082DE5217A00750743 /* DinoFileRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E0D78F0E2DE52B0C00750743 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F0F2DE52B1A00750743 /* DinoRepositoryError+Equatable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E0D78F122DE533C300750743 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F1E2DE5594900750743 /* optional-dino-files.json */,
+				E0D78F132DE533CF00750743 /* broken-dino-files.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0D78F162DE53C1900750743 /* DinoFilesView */ = {
+			isa = PBXGroup;
+			children = (
+				E0B91DD42DE67A8B00F07C7F /* Components */,
+				E0D78F192DE53C2B00750743 /* DinoFilesViewModel.swift */,
+				E0D78F172DE53C2500750743 /* DinoFilesView.swift */,
+			);
+			path = DinoFilesView;
+			sourceTree = "<group>";
+		};
+		E0D78F1B2DE551E000750743 /* SharedComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F2F2DE624DB00750743 /* AggressivenessRate.swift */,
+				E0D78F382DE639BE00750743 /* LocationMap.swift */,
+				E0B91DE82DE71A5300F07C7F /* MapPinShape.swift */,
+				E0D78F1C2DE551E700750743 /* SafeAsyncImage.swift */,
+			);
+			path = SharedComponents;
+			sourceTree = "<group>";
+		};
+		E0D78F202DE5FA0800750743 /* DinoDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				E0B91DF72DE7408600F07C7F /* Components */,
+				E0D78F232DE5FEDC00750743 /* DinoDetailView.swift */,
+			);
+			path = DinoDetailView;
+			sourceTree = "<group>";
+		};
+		E0D78F252DE6174B00750743 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F262DE6175200750743 /* DinoMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		E0D78F2C2DE6235C00750743 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78F2D2DE6236300750743 /* Dino+Presentation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E0D78F332DE6320700750743 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E0B91DF12DE72CF200F07C7F /* AccessibilityIDResources.swift */,
+				E0B91DDF2DE6888D00F07C7F /* ColorResources.swift */,
+				E0B91DF42DE7353300F07C7F /* DisplayType.swift */,
+				E0B91DE12DE68A1F00F07C7F /* IconResources.swift */,
+				E0DC2B822DEBBFE10090883E /* ImageResources.swift */,
+				E0B91DE32DE69AED00F07C7F /* MatchedGeometryResources.swift */,
+				E0D78F342DE6320E00750743 /* StringResources.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E0DC2B602DE7B9660090883E /* Dino BestiarySnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC2B7F2DEBB8B40090883E /* Screens */,
+				E0DC2B7E2DEBB8AE0090883E /* Components */,
+				E0DC2B692DE7DA920090883E /* Helper */,
+			);
+			path = "Dino BestiarySnapshotTests";
+			sourceTree = "<group>";
+		};
+		E0DC2B692DE7DA920090883E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC2B6A2DE7DAAD0090883E /* NamespaceWrapper.swift */,
+				E0DC2B722DEB29AE0090883E /* SnapshotPresets.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E0DC2B6E2DEAF6760090883E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E0B91DEA2DE71B0600F07C7F /* FileResources.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E0DC2B782DEBA94A0090883E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E0D78EEB2DE5166B00750743 /* DinoBestiaryApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E0DC2B792DEBA9580090883E /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC2B7A2DEBA9680090883E /* IsSnapshotTestingKey.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		E0DC2B7E2DEBB8AE0090883E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC2B762DEB2CB50090883E /* AggressivenessRateSnapshotTests.swift */,
+				E0DC2B742DEB2A260090883E /* DinoGridCellSnapshotTests.swift */,
+				E0644C0E2DEBE46A009E36E0 /* DinoGridViewSnapshotTests.swift */,
+				E0DC2B6C2DEA28A60090883E /* DinoListCellSnapshotTests.swift */,
+				E0DC2B802DEBBD400090883E /* DinoListViewSnapshotTests.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E0DC2B7F2DEBB8B40090883E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC2B7C2DEBB0190090883E /* DinoDetailViewSnapshotTests.swift */,
+				E0644C102DEBE49B009E36E0 /* DinoFilesViewSnapshotTests.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +573,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E0D78EAD2DE5151400750743 /* Dino Bestiary */,
 			);
 			name = "Dino Bestiary";
 			packageProductDependencies = (
@@ -130,9 +594,6 @@
 			dependencies = (
 				E0D78EBA2DE5151600750743 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E0D78EBB2DE5151600750743 /* Dino BestiaryTests */,
-			);
 			name = "Dino BestiaryTests";
 			packageProductDependencies = (
 			);
@@ -153,15 +614,35 @@
 			dependencies = (
 				E0D78EC42DE5151600750743 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E0D78EC52DE5151600750743 /* Dino BestiaryUITests */,
-			);
 			name = "Dino BestiaryUITests";
 			packageProductDependencies = (
 			);
 			productName = "Dino BestiaryUITests";
 			productReference = E0D78EC22DE5151600750743 /* Dino BestiaryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E0DC2B552DE7B95D0090883E /* Dino BestiarySnapshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DC2B5C2DE7B95D0090883E /* Build configuration list for PBXNativeTarget "Dino BestiarySnapshotTests" */;
+			buildPhases = (
+				E0DC2B522DE7B95D0090883E /* Sources */,
+				E0DC2B532DE7B95D0090883E /* Frameworks */,
+				E0DC2B542DE7B95D0090883E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0DC2B5B2DE7B95D0090883E /* PBXTargetDependency */,
+			);
+			name = "Dino BestiarySnapshotTests";
+			packageProductDependencies = (
+				E0DC2B632DE7B9C90090883E /* InlineSnapshotTesting */,
+				E0DC2B652DE7B9C90090883E /* SnapshotTesting */,
+				E0DC2B672DE7B9C90090883E /* SnapshotTestingCustomDump */,
+			);
+			productName = "Dino BestiarySnapshotTests";
+			productReference = E0DC2B562DE7B95D0090883E /* Dino BestiarySnapshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -184,6 +665,10 @@
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = E0D78EAA2DE5151400750743;
 					};
+					E0DC2B552DE7B95D0090883E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E0D78EAA2DE5151400750743;
+					};
 				};
 			};
 			buildConfigurationList = E0D78EA62DE5151400750743 /* Build configuration list for PBXProject "Dino Bestiary" */;
@@ -195,6 +680,9 @@
 			);
 			mainGroup = E0D78EA22DE5151400750743;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E0DC2B622DE7B9C90090883E /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E0D78EAC2DE5151400750743 /* Products */;
 			projectDirPath = "";
@@ -203,6 +691,7 @@
 				E0D78EAA2DE5151400750743 /* Dino Bestiary */,
 				E0D78EB72DE5151600750743 /* Dino BestiaryTests */,
 				E0D78EC12DE5151600750743 /* Dino BestiaryUITests */,
+				E0DC2B552DE7B95D0090883E /* Dino BestiarySnapshotTests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +701,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0D78EED2DE5166B00750743 /* Assets.xcassets in Resources */,
+				E0B91DDE2DE6832C00F07C7F /* Colors.xcassets in Resources */,
+				E0D78F112DE52EAA00750743 /* dino-files.json in Resources */,
+				E0644C192DEBF1E9009E36E0 /* LaunchScreen.storyboard in Resources */,
+				E0D78F322DE6316E00750743 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +713,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0D78F152DE538B700750743 /* broken-dino-files.json in Resources */,
+				E0D78F1F2DE5595700750743 /* optional-dino-files.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +725,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0DC2B542DE7B95D0090883E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0644C152DEBEE9A009E36E0 /* optional-dino-files.json in Resources */,
+				E0644C162DEBEE9A009E36E0 /* broken-dino-files.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -236,6 +741,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B91DDC2DE6808200F07C7F /* DinoGridView.swift in Sources */,
+				E0D78F0D2DE5263F00750743 /* DinoRepositoryError.swift in Sources */,
+				E04D277A2DEC7BB600A440F6 /* ErrorView.swift in Sources */,
+				E0B91DE92DE71A5300F07C7F /* MapPinShape.swift in Sources */,
+				E0B91DE22DE68A2300F07C7F /* IconResources.swift in Sources */,
+				E0B91DD82DE67BA400F07C7F /* DinoListCell.swift in Sources */,
+				E0D78EFE2DE51B3E00750743 /* Period.swift in Sources */,
+				E0B91DE42DE69AF500F07C7F /* MatchedGeometryResources.swift in Sources */,
+				E0D78F092DE5217F00750743 /* DinoFileRepository.swift in Sources */,
+				E0D78F392DE639C300750743 /* LocationMap.swift in Sources */,
+				E0B91DEB2DE71B0B00F07C7F /* FileResources.swift in Sources */,
+				E0D78F242DE5FEE000750743 /* DinoDetailView.swift in Sources */,
+				E0D78F352DE6322900750743 /* StringResources.swift in Sources */,
+				E0D78EF92DE51B1A00750743 /* DinoSize.swift in Sources */,
+				E0D78EFC2DE51B2D00750743 /* DinoClassification.swift in Sources */,
+				E0B91DFB2DE744FE00F07C7F /* DinoMapInfoSection.swift in Sources */,
+				E0D78F1D2DE551EC00750743 /* SafeAsyncImage.swift in Sources */,
+				E0D78EEF2DE5166B00750743 /* DinoBestiaryApp.swift in Sources */,
+				E0D78F2E2DE6236700750743 /* Dino+Presentation.swift in Sources */,
+				E0D78F182DE53C2800750743 /* DinoFilesView.swift in Sources */,
+				E0DC2B832DEBBFE70090883E /* ImageResources.swift in Sources */,
+				E0D78F0B2DE5230E00750743 /* JSONDinoFileRepository.swift in Sources */,
+				E0B91DE02DE6889300F07C7F /* ColorResources.swift in Sources */,
+				E0D78F002DE51C3A00750743 /* DiscoverySite.swift in Sources */,
+				E0B91DF22DE72CFE00F07C7F /* AccessibilityIDResources.swift in Sources */,
+				E0B91DDA2DE67BB600F07C7F /* DinoGridCell.swift in Sources */,
+				E0DC2B7B2DEBA9680090883E /* IsSnapshotTestingKey.swift in Sources */,
+				E0D78F302DE624E100750743 /* AggressivenessRate.swift in Sources */,
+				E0D78F1A2DE53C3000750743 /* DinoFilesViewModel.swift in Sources */,
+				E0D78F062DE51F0400750743 /* Dino.swift in Sources */,
+				E0D78F282DE617B600750743 /* DinoMock.swift in Sources */,
+				E0B91DF92DE7416400F07C7F /* DinoInfoSection.swift in Sources */,
+				E0D78F022DE51C4B00750743 /* FossilLocation.swift in Sources */,
+				E0D78F042DE51D7900750743 /* Coordinates.swift in Sources */,
+				E0B91DD62DE67AA400F07C7F /* DinoListView.swift in Sources */,
+				E0B91DF52DE7353300F07C7F /* DisplayType.swift in Sources */,
+				E0644C132DEBE55A009E36E0 /* MockDinoFileRepository.swift in Sources */,
+				E04D277C2DED08D000A440F6 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +786,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0D78F222DE5FA6000750743 /* DinoListViewModelTests.swift in Sources */,
+				E0D78EE82DE5166900750743 /* JSONDecodingTests.swift in Sources */,
+				E0B91DF02DE7203800F07C7F /* ExpectedErrorResources.swift in Sources */,
+				E0D78F272DE6175500750743 /* DinoMock.swift in Sources */,
+				E0D78F142DE533D500750743 /* broken-dino-files.json in Sources */,
+				E0D78F102DE52B2300750743 /* DinoRepositoryError+Equatable.swift in Sources */,
+				E0B91DEE2DE71BF200F07C7F /* TestFileResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +800,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B91DF62DE7353D00F07C7F /* DisplayType.swift in Sources */,
+				E0B91DF32DE7312700F07C7F /* AccessibilityIDResources.swift in Sources */,
+				E0D78EE42DE5166600750743 /* NavigationUITests.swift in Sources */,
+				E0D78EE52DE5166600750743 /* Dino_BestiaryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DC2B522DE7B95D0090883E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0644C0F2DEBE475009E36E0 /* DinoGridViewSnapshotTests.swift in Sources */,
+				E0DC2B812DEBBD4C0090883E /* DinoListViewSnapshotTests.swift in Sources */,
+				E0644C142DEBEE17009E36E0 /* TestFileResources.swift in Sources */,
+				E0644C112DEBE4A7009E36E0 /* DinoFilesViewSnapshotTests.swift in Sources */,
+				E0DC2B6D2DEA28A90090883E /* DinoListCellSnapshotTests.swift in Sources */,
+				E0DC2B752DEB2A300090883E /* DinoGridCellSnapshotTests.swift in Sources */,
+				E0DC2B6F2DEB05910090883E /* ColorResources.swift in Sources */,
+				E0DC2B6B2DE7DAAD0090883E /* NamespaceWrapper.swift in Sources */,
+				E0DC2B732DEB29AE0090883E /* SnapshotPresets.swift in Sources */,
+				E0DC2B772DEB2CC10090883E /* AggressivenessRateSnapshotTests.swift in Sources */,
+				E0DC2B7D2DEBB0230090883E /* DinoDetailViewSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +837,11 @@
 			isa = PBXTargetDependency;
 			target = E0D78EAA2DE5151400750743 /* Dino Bestiary */;
 			targetProxy = E0D78EC32DE5151600750743 /* PBXContainerItemProxy */;
+		};
+		E0DC2B5B2DE7B95D0090883E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0D78EAA2DE5151400750743 /* Dino Bestiary */;
+			targetProxy = E0DC2B5A2DE7B95D0090883E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -329,6 +906,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -386,6 +964,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -400,9 +979,12 @@
 				DEVELOPMENT_TEAM = LWXG6YX7QU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dino-Bestiary-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dino Bestiary";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,6 +994,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-Bestiary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,9 +1014,12 @@
 				DEVELOPMENT_TEAM = LWXG6YX7QU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dino-Bestiary-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dino Bestiary";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +1029,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-Bestiary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +1051,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-BestiaryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,6 +1074,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-BestiaryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,8 +1093,13 @@
 				DEVELOPMENT_TEAM = LWXG6YX7QU;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-BestiaryUITests";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-Bestiary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,12 +1115,58 @@
 				DEVELOPMENT_TEAM = LWXG6YX7QU;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-BestiaryUITests";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-Bestiary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = "Dino Bestiary";
+			};
+			name = Release;
+		};
+		E0DC2B5D2DE7B95D0090883E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWXG6YX7QU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-BestiarySnapshotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dino Bestiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dino Bestiary";
+			};
+			name = Debug;
+		};
+		E0DC2B5E2DE7B95D0090883E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWXG6YX7QU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dino-BestiarySnapshotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dino Bestiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dino Bestiary";
 			};
 			name = Release;
 		};
@@ -557,7 +1209,45 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E0DC2B5C2DE7B95D0090883E /* Build configuration list for PBXNativeTarget "Dino BestiarySnapshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DC2B5D2DE7B95D0090883E /* Debug */,
+				E0DC2B5E2DE7B95D0090883E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0DC2B622DE7B9C90090883E /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.18.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0DC2B632DE7B9C90090883E /* InlineSnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0DC2B622DE7B9C90090883E /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = InlineSnapshotTesting;
+		};
+		E0DC2B652DE7B9C90090883E /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0DC2B622DE7B9C90090883E /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		E0DC2B672DE7B9C90090883E /* SnapshotTestingCustomDump */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0DC2B622DE7B9C90090883E /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTestingCustomDump;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E0D78EA32DE5151400750743 /* Project object */;
 }

@@ -1,50 +1,38 @@
 //
-//  JSONDinoFileRepository 2.swift
+//  MockDinoFileRepository 2.swift
 //  Dino Bestiary
 //
 //  Created by Renan Maganha on 31/05/25.
 //
 
-
-final class JSONDinoFileRepository: DinoFileRepository {
+/// A mock implementation of `DinoFileRepository` used for testing purposes.
+///
+/// This mock provides a configurable list of dinosaurs, allowing snapshot tests,
+/// UI previews, and unit tests to run without depending on real file data.
+///
+/// You can pass a custom list of `Dino` objects, or rely on the default array of mocks.
+///
+/// Example usage:
+/// ```swift
+/// let repository = MockDinoFileRepository()
+/// let dinos = try await repository.getDinosList()
+/// ```
+///
+/// - Note: This mock always returns immediately without throwing errors.
+final class MockDinoFileRepository: DinoFileRepository {
     
-    private var cache: Array<Dino>? = nil
-    private let bundle: Bundle
-    private let resourceName: String
+    private var dinos: Array<Dino>
     
-    init(resourceName: String, bundle: Bundle = .main) {
-        self.resourceName = resourceName
-        self.bundle = bundle
+    /// Creates a new instance of the mock repository with a list of dinosaurs.
+    ///
+    /// - Parameter dinos: The list of dinos to return in tests. Defaults to 10 `.mock` instances.
+    init(dinos: Array<Dino> = Dino.mockArray) {
+        self.dinos = dinos
     }
     
+    /// Returns the mock list of dinosaurs.
     func getDinosList() async throws -> Array<Dino> {
-        if cache == nil {
-            do {
-                try await loadCache()
-            } catch {
-                throw error
-            }
-        }
-        
-        return cache ?? .init()
-    }
-    
-    private func loadCache() async throws {
-        guard let url = bundle.url(forResource: self.resourceName, withExtension: "json") else {
-            throw DinoRepositoryError.fileNotFound(self.resourceName)
-        }
-        
-        do {
-            let dinos = try await Task.detached(priority: .userInitiated) {
-                let data = try Data(contentsOf: url)
-                return try JSONDecoder().decode(Array<Dino>.self, from: data)
-            }.value
-
-            self.cache = dinos
-        } catch {
-            print("Failed to decode JSON: \(error.localizedDescription)")
-            throw DinoRepositoryError.decodingError(error)
-        }
+        return dinos
     }
     
 }

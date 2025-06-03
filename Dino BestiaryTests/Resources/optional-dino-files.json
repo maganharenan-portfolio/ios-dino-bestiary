@@ -1,0 +1,38 @@
+[
+    {
+        "id": "f64a41d7-1d99-4d89-8a62-1e57012d2320",
+        "name": "Velociraptor",
+        "classification": "Carnivore",
+        "size": "Medium",
+        "period": "Late Cretaceous",
+        "aggressiveness": 9,
+        "description": "Fast, deadly, and always hunting in packs. Silent until it's too late.",
+        "notable_behavior": "High-speed ambush and flanking",
+        "fun_fact": "Velociraptors likely had feathers, similar to modern birds.",
+        "discovery_site": {
+            "location": "Gobi Desert, Mongolia",
+            "coordinates": {
+                "latitude": 44.5,
+                "longitude": 103.5
+            }
+        },
+        "fossil_location": {
+            "name": "American Museum of Natural History",
+            "coordinates": {
+                "latitude": 40.7813,
+                "longitude": -73.9735
+            },
+            "website": "https://www.amnh.org"
+        },
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Velociraptor_dinoguy2.jpg"
+    },
+    {
+        "id": "877e70ae-4f9b-4e43-b593-52f8eddd4006",
+        "name": "Tyrannosaurus Rex",
+        "classification": "Carnivore",
+        "size": "Extra Large",
+        "period": "Late Cretaceous",
+        "aggressiveness": 10,
+        "description": "The undisputed apex predator of the time distortion zones. Big teeth. Bad attitude."
+    }
+]

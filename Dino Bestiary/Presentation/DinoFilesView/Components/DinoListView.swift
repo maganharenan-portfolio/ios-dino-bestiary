@@ -1,27 +1,41 @@
+//
+//  DinoListView.swift
+//  Dino Bestiary
+//
+//  Created by Renan Maganha on 27/05/25.
+//
+
+import SwiftUI
+
+/// A scrollable list view that displays a collection of dinosaurs using list-style cells.
+///
+/// Each list item navigates to a `DinoDetailView` when tapped and uses matched geometry
+/// for smooth animated transitions between views. The list is automatically populated
+/// from the provided array of `Dino` models.
+///
+/// - Parameters:
+///   - dinos: An array of `Dino` models to render in the list.
+///   - dinoFileLayout: A `Namespace.ID` used for matched geometry animations.
 struct DinoListView: View {
     
-    @StateObject var viewModel: DinoListViewModel
-    
-    init(viewModel: DinoListViewModel) {
-        self._viewModel = StateObject(wrappedValue: viewModel)
-    }
+    var dinos: Array<Dino>
+    let dinoFileLayout: Namespace.ID
     
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(viewModel.dinoList) { dino in
-                    NavigationLink {
-                        DinoDetailView(dino: dino)
-                    } label: {
-                        DinoListCell(dino: dino)
-                    }
+        List {
+            ForEach(dinos) { dino in
+                NavigationLink {
+                    DinoDetailView(dino: dino)
+                } label: {
+                    DinoListCell(dino: dino, dinoFileLayout: dinoFileLayout)
                 }
+                .accessibilityIdentifier(AccessibilityID.dinoCell(dino.id, displayType: .list))
             }
-            .task {
-                await viewModel.fetchDinos()
-            }
-            .navigationTitle(StringResources.dinoFilesTitle.localized)
         }
     }
     
+}
+
+#Preview {
+    DinoListView(dinos: [Dino.mock], dinoFileLayout: Namespace().wrappedValue)
 }

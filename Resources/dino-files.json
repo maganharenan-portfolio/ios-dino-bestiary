@@ -1,0 +1,299 @@
+[
+    {
+        "id": "f64a41d7-1d99-4d89-8a62-1e57012d2320",
+        "name": "Velociraptor",
+        "classification": "Carnivore",
+        "size": "Medium",
+        "period": "Late Cretaceous",
+        "aggressiveness": 9,
+        "description": "Fast, deadly, and always hunting in packs. Silent until it's too late.",
+        "notable_behavior": "High-speed ambush and flanking",
+        "fun_fact": "Velociraptors likely had feathers, similar to modern birds.",
+        "discovery_site": {
+            "location": "Gobi Desert, Mongolia",
+            "coordinates": {
+                "latitude": 44.5,
+                "longitude": 103.5
+            }
+        },
+        "fossil_location": {
+            "name": "American Museum of Natural History",
+            "coordinates": {
+                "latitude": 40.7813,
+                "longitude": -73.9735
+            },
+            "website": "https://www.amnh.org"
+        },
+        "image_url": "https://static.wikia.nocookie.net/jurassicpark/images/b/b8/Velociraptor-info-graphic.png/revision/latest?cb=20150420212958"
+    },
+    {
+        "id": "877e70ae-4f9b-4e43-b593-52f8eddd4006",
+        "name": "Tyrannosaurus Rex",
+        "classification": "Carnivore",
+        "size": "Extra Large",
+        "period": "Late Cretaceous",
+        "aggressiveness": 10,
+        "description": "The undisputed apex predator of the time distortion zones. Big teeth. Bad attitude.",
+        "notable_behavior": "Relentless pursuit and roar-based intimidation",
+        "fun_fact": "T. Rex had one of the strongest bite forces of any land animal in history.",
+        "discovery_site": {
+            "location": "Hell Creek Formation, Montana, USA",
+            "coordinates": {
+                "latitude": 47.0,
+                "longitude": -104.0
+            }
+        },
+        "fossil_location": {
+            "name": "Field Museum of Natural History",
+            "coordinates": {
+                "latitude": 41.8663,
+                "longitude": -87.6170
+            },
+            "website": "https://www.fieldmuseum.org"
+        },
+        "image_url": "https://static.wikia.nocookie.net/dinosaur-protection-group/images/f/f8/T-Rex.png/revision/latest?cb=20200426214612"
+    },
+    {
+        "id": "16e6d87c-ffad-4cc7-9a94-39ecbe6ad7f1",
+        "name": "Compsognathus",
+        "classification": "Carnivore",
+        "size": "Tiny",
+        "period": "Late Jurassic",
+        "aggressiveness": 4,
+        "description": "Tiny and usually harmless... unless there's twenty of them.",
+        "notable_behavior": "Swarming in packs, nipping ankles",
+        "fun_fact": "Compsognathus was roughly the size of a chicken.",
+        "discovery_site": {
+            "location": "Solnhofen, Bavaria, Germany",
+            "coordinates": {
+                "latitude": 48.9,
+                "longitude": 11.0
+            }
+        },
+        "fossil_location": {
+            "name": "Bavarian State Collection for Paleontology and Geology",
+            "coordinates": {
+                "latitude": 48.1486,
+                "longitude": 11.5675
+            },
+            "website": "https://www.palmuc.de"
+        },
+        "image_url": "https://static.wikia.nocookie.net/duckhunts-prehistoric-market/images/5/51/Compsognathus_JWE2_Profile.webp/revision/latest/scale-to-width-down/543?cb=20231110222953"
+    },
+    {
+        "id": "1b848309-3c6f-4e33-9a47-0c85c3e8f54e",
+        "name": "Allosaurus",
+        "classification": "Carnivore",
+        "size": "Large",
+        "period": "Late Jurassic",
+        "aggressiveness": 8,
+        "description": "A fast and powerful predator, often underestimated next to the T-Rex.",
+        "notable_behavior": "Ambush predator with brutal lunges",
+        "fun_fact": "Allosaurus had three-fingered hands, unlike the T. Rex’s two.",
+        "discovery_site": {
+            "location": "Cleveland-Lloyd Dinosaur Quarry, Utah, USA",
+            "coordinates": {
+                "latitude": 39.3097,
+                "longitude": -110.6789
+            }
+        },
+        "fossil_location": {
+            "name": "Natural History Museum of Utah",
+            "coordinates": {
+                "latitude": 40.7654,
+                "longitude": -111.8265
+            },
+            "website": "https://nhmu.utah.edu"
+        },
+        "image_url": "https://www.dododex.com/media/creature/allosaurus.png"
+    },
+    {
+        "id": "a5b789f7-b625-41a0-bdf6-4a23cf4146a7",
+        "name": "Triceratops",
+        "classification": "Herbivore",
+        "size": "Large",
+        "period": "Late Cretaceous",
+        "aggressiveness": 6,
+        "description": "Normally docile, but when provoked, becomes a charging tank of fury.",
+        "notable_behavior": "Group stampede defense",
+        "fun_fact": "Triceratops' horns could grow over 1 meter in length.",
+        "discovery_site": {
+            "location": "Lance Formation, Wyoming, USA",
+            "coordinates": {
+                "latitude": 43.0,
+                "longitude": -105.0
+            }
+        },
+        "fossil_location": {
+            "name": "American Museum of Natural History",
+            "coordinates": {
+                "latitude": 40.7813,
+                "longitude": -73.9735
+            },
+            "website": "https://www.amnh.org"
+        },
+        "image_url": "https://static.vecteezy.com/system/resources/previews/053/136/239/non_2x/prehistoric-triceratops-clipart-radiates-bold-charm-in-designs-free-png.png"
+    },
+    {
+        "id": "0b278b2f-cadf-403d-a999-b9e9aaf7a3ff",
+        "name": "Oviraptor",
+        "classification": "Carnivore",
+        "size": "Small",
+        "period": "Late Cretaceous",
+        "aggressiveness": 5,
+        "description": "Quick and sneaky egg thief with a nasty bite.",
+        "notable_behavior": "High mobility and resource scavenging",
+        "fun_fact": "Despite its name, Oviraptor likely did not steal eggs, but protected them.",
+        "discovery_site": {
+            "location": "Djadokhta Formation, Mongolia",
+            "coordinates": {
+                "latitude": 43.5,
+                "longitude": 100.0
+            }
+        },
+        "fossil_location": {
+            "name": "American Museum of Natural History",
+            "coordinates": {
+                "latitude": 40.7813,
+                "longitude": -73.9735
+            },
+            "website": "https://www.amnh.org"
+        },
+        "image_url": "https://www.dododex.com/media/creature/oviraptor.png"
+    },
+    {
+        "id": "cdb6ac10-c6d1-45ee-918f-b2cdeabc14a9",
+        "name": "Pteranodon",
+        "classification": "Carnivore",
+        "size": "Large",
+        "period": "Late Cretaceous",
+        "aggressiveness": 7,
+        "description": "Deadly from above, and worst of all — they scream before they strike.",
+        "notable_behavior": "Dive attacks and grab-lift drops",
+        "fun_fact": "Pteranodons were not dinosaurs, but flying reptiles called pterosaurs.",
+        "discovery_site": {
+            "location": "Smoky Hill Chalk, Kansas, USA",
+            "coordinates": {
+                "latitude": 39.0,
+                "longitude": -98.0
+            }
+        },
+        "fossil_location": {
+            "name": "American Museum of Natural History",
+            "coordinates": {
+                "latitude": 40.7813,
+                "longitude": -73.9735
+            },
+            "website": "https://www.amnh.org"
+        },
+        "image_url": "https://i.namu.wiki/i/wysCenTWdr1kWwRiNKaA8tHZGjQi5ToP7dPBgc__y8ZRBnk_lLRCJrtzC7CPUB7tmDZwHK3AJ02-GVjTvAfjQQ.webp"
+    },
+    {
+        "id": "8b997637-14e8-4dd2-8b6f-44e4ccefe5a7",
+        "name": "Inostrancevia",
+        "classification": "Carnivore",
+        "size": "Medium",
+        "period": "Late Permian",
+        "aggressiveness": 8,
+        "description": "Not a dinosaur, but just as deadly. Fast, low to the ground, and vicious.",
+        "notable_behavior": "Agile close-quarters combat",
+        "fun_fact": "Inostrancevia lived millions of years before dinosaurs even existed.",
+        "discovery_site": {
+            "location": "Northern Dvina River, Russia",
+            "coordinates": {
+                "latitude": 61.0,
+                "longitude": 46.0
+            }
+        },
+        "fossil_location": {
+            "name": "Paleontological Institute, Russian Academy of Sciences",
+            "coordinates": {
+                "latitude": 55.7558,
+                "longitude": 37.6173
+            },
+            "website": "http://www.paleo.ru"
+        },
+        "image_url": "https://img.wattpad.com/89212fc3bec9200fac4edef0a956742be4802c61/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f344d374367533876396b347851773d3d2d3237343832383239322e313435616565616662653330366361333430343231373739373331382e706e67?s=fit&w=720&h=720"
+    },
+    {
+        "id": "e3f1a9d2-6c3b-4f2a-9c3a-0b8f5e2a1d3e",
+        "name": "Mosasaurus",
+        "classification": "Carnivore",
+        "size": "Extra Large",
+        "period": "Late Cretaceous",
+        "aggressiveness": 9,
+        "description": "A massive marine predator with a powerful tail and sharp teeth.",
+        "notable_behavior": "Ambush attacks from the depths",
+        "fun_fact": "Mosasaurus was a dominant marine predator, reaching lengths over 50 feet.",
+        "discovery_site": {
+            "location": "Maastricht, Netherlands",
+            "coordinates": {
+                "latitude": 50.8514,
+                "longitude": 5.6900
+            }
+        },
+        "fossil_location": {
+            "name": "Maastricht Natural History Museum",
+            "coordinates": {
+                "latitude": 50.8514,
+                "longitude": 5.6900
+            },
+            "website": "https://en.wikipedia.org/wiki/Maastricht_Natural_History_Museum"
+        },
+        "image_url": "https://comicvine.gamespot.com/a/uploads/original/12/128875/6699233-2167119775-640x1.png"
+    },
+    {
+        "id": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "name": "Plesiosaurus",
+        "classification": "Carnivore",
+        "size": "Large",
+        "period": "Early Jurassic",
+        "aggressiveness": 5,
+        "description": "A marine reptile with a long neck and four powerful flippers.",
+        "notable_behavior": "Graceful swimming and fish hunting",
+        "fun_fact": "Plesiosaurus was among the first fossil reptiles discovered and studied.",
+        "discovery_site": {
+            "location": "Lyme Regis, Dorset, England",
+            "coordinates": {
+                "latitude": 50.7256,
+                "longitude": -2.9350
+            }
+        },
+        "fossil_location": {
+            "name": "Natural History Museum, London",
+            "coordinates": {
+                "latitude": 51.4967,
+                "longitude": -0.1764
+            },
+            "website": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London"
+        },
+        "image_url": "https://static.wikia.nocookie.net/dinosaur-world6401/images/6/6f/1393_elasmosaurus_joanna.png/revision/latest?cb=20171113055934"
+    },
+    {
+        "id": "9cfd8b9f-4c02-4e76-9fef-80a4a3dc3c7f",
+        "name": "Giganotosaurus",
+        "classification": "Carnivore",
+        "size": "Extra Large",
+        "period": "Late Cretaceous",
+        "aggressiveness": 10,
+        "description": "The real final boss. Bigger than T-Rex, meaner than your code review.",
+        "notable_behavior": "Multi-stage rage combat",
+        "fun_fact": "Giganotosaurus lived in South America and was one of the largest known terrestrial carnivores.",
+        "discovery_site": {
+            "location": "Neuquén Province, Argentina",
+            "coordinates": {
+                "latitude": -38.95,
+                "longitude": -68.06
+            }
+        },
+        "fossil_location": {
+            "name": "Museo Municipal Carmen Funes",
+            "coordinates": {
+                "latitude": -38.9311,
+                "longitude": -69.1936
+            },
+            "website": "https://en.wikipedia.org/wiki/Museo_Carmen_Funes"
+        },
+        "image_url": "https://www.animalsaroundtheglobe.com/wp-content/uploads/2023/03/cretaceous-g1883d1cde_1920-1-e1678178786957-1200x742.png.webp"
+    }
+]

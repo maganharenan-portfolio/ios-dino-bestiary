@@ -1,4 +1,14 @@
-struct SnapshotPresets {
+//
+//  SnapshotPresets.swift
+//  Dino Bestiary
+//
+//  Created by Renan Maganha on 31/05/25.
+//
+
+import SnapshotTesting
+import SwiftUI
+
+class SnapshotPresets {
 
     static func all<Value: View>() -> [Snapshotting<Value, UIImage>] {
         return [

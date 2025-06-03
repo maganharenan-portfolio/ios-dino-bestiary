@@ -13,7 +13,7 @@ import SwiftUI
 @Suite(.snapshots(record: .failed)) @MainActor
 struct AggressivenessRateSnapshotTests {
     
-    @Test func test_aggressivenes_rate_states() async throws {
+    @Test func common_states() async throws {
         let minimumFirstLevel = AggressivenessRate(rate: 0)
         let maximumFirstLevel = AggressivenessRate(rate: 4)
         let minimumSecondLevel = AggressivenessRate(rate: 5)
@@ -40,7 +40,7 @@ struct AggressivenessRateSnapshotTests {
         }
     }
     
-    @Test func test_aggressivenes_wrong_rate_value_dont_crash() {
+    @Test func wrong_rate_value_dont_crash() {
         let lowerThanZero  = AggressivenessRate(rate: -4)
         let greaterThanTen = AggressivenessRate(rate: 23)
         

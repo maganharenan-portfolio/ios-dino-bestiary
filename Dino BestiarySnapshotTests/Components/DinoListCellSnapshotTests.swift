@@ -13,7 +13,7 @@ import SwiftUI
 @Suite(.snapshots(record: .failed)) @MainActor
 struct DinoListCellSnapshotTests {
     
-    @Test func test_dino_data_with_common_strings() async throws {
+    @Test func common_strings() async throws {
         let view = NamespaceWrapper { namespace in
             DinoListCell(dino: Dino.mock, dinoFileLayout: namespace)
         }
@@ -21,10 +21,11 @@ struct DinoListCellSnapshotTests {
         assertSnapshots(of: view, as: SnapshotPresets.all())
     }
     
-    @Test func test_dino_data_with_verbose_strings() async throws {
+    @Test func verbose_strings() async throws {
         let view = NamespaceWrapper { namespace in
             DinoListCell(dino: Dino.mockVerbose, dinoFileLayout: namespace)
         }
         assertSnapshots(of: view, as: SnapshotPresets.all())
     }
+    
 }

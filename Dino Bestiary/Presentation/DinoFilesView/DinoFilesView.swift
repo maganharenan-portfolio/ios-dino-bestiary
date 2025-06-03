@@ -7,59 +7,78 @@
 
 import SwiftUI
 
+/// The main entry view for the dinosaur collection screen.
+///
+/// This view is responsible for:
+/// - Loading the list of dinosaurs using the provided `DinoFilesViewModel`.
+/// - Displaying a loading indicator while data is being fetched.
+/// - Presenting an error view in case something goes wrong.
+/// - Showing either a grid or list of dinosaurs, based on the current display mode.
+/// - Offering a toggle button in the navigation bar to switch between list and grid.
+///
+/// The layout leverages a matched geometry namespace to enable smooth transitions
+/// between the list/grid views and the detail view.
+///
+/// - Parameters:
+///   - viewModel: The view model responsible for handling the dinosaur data and UI state.
 struct DinoFilesView: View {
     
-    @StateObject var viewModel: DinoListViewModel
+    @StateObject var viewModel: DinoFilesViewModel
+    @Namespace private var dinoFileLayout
     
-    init(viewModel: DinoListViewModel) {
+    init(viewModel: DinoFilesViewModel) {
         self._viewModel = StateObject(wrappedValue: viewModel)
     }
     
     var body: some View {
         NavigationView {
-            Group {
-                DinoListView(dinos: viewModel.dinoList)
+            ZStack {
+                if viewModel.isLoading {
+                    ProgressView()
+                } else if let error = viewModel.errorMessage {
+                    ErrorView(errorMessage: error)
+                } else {
+                    switch viewModel.displayType {
+                    case .grid: DinoGridView(
+                        dinos: viewModel.dinoList,
+                        dinoFileLayout: dinoFileLayout
+                    ).transition(.opacity)
+                    case .list: DinoListView(
+                        dinos: viewModel.dinoList,
+                        dinoFileLayout: dinoFileLayout
+                    ).transition(.opacity)
+                    }
+                }
             }
+            .animation(.easeInOut(duration: 0.3), value: viewModel.displayType)
+            .background(ColorResources.collectionBackground.value)
             .task {
                 await viewModel.fetchDinos()
             }
             .navigationTitle(StringResources.dinoFilesTitle.localized)
-        }
-    }
-    
-}
-
-struct DinoListCell: View {
-    
-    var dino: Dino
-    
-    var body: some View {
-        HStack {
-            SafeAsyncImage(urlString: dino.imageURL, size: 60)
-                .frame(width: 80)
-            
-            VStack(alignment: .leading, spacing: 8) {
-                Text(dino.name)
-                    .font(.title3.bold())
-                
-                Text(dino.classificationAndPeriodText)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                
-                AggressivenessRate(rate: dino.aggressiveness)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        viewModel.toggleDisplayType()
+                    }) {
+                        Image(systemName: IconResources.getDisplayTypeIcon(
+                            type: viewModel.displayType
+                        ))
+                    }
+                    .accessibilityIdentifier(AccessibilityID.toggleDisplayButton)
+                }
             }
-            .padding(.leading)
         }
-        .padding(.horizontal)
-        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(ColorResources.collectionBackground.value)
     }
-    
 }
 
 #Preview {
     DinoFilesView(
-        viewModel: DinoListViewModel(
-            repository: JSONDinoFileRepository(resourceName: "dino-files")
+        viewModel: DinoFilesViewModel(
+            repository: JSONDinoFileRepository(
+                resourceName: FileResources.dinoFiles
+            )
         )
     )
 }

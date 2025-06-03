@@ -15,7 +15,8 @@ final class TestBundleLocator {}
 struct JSONDecodingTests {
 
     @Test func correct_json_returns_dinossaurs() async throws {
-        let repository = JSONDinoFileRepository(resourceName: "dino-files", bundle: .main)
+        let fileName   = TestFileResources.dinoFiles.rawValue
+        let repository = JSONDinoFileRepository(resourceName: fileName, bundle: .main)
         let dinosList  = try! await repository.getDinosList()
         
         #expect(dinosList.isEmpty == false)
@@ -23,23 +24,26 @@ struct JSONDecodingTests {
     
     @Test func json_with_null_optionals_returns_dinossaurs() async throws {
         let testBundle = Bundle(for: TestBundleLocator.self)
-        let repository = JSONDinoFileRepository(resourceName: "optional-dino-files", bundle: testBundle)
+        let fileName   = TestFileResources.dinoWithOptionals.rawValue
+        let repository = JSONDinoFileRepository(resourceName: fileName, bundle: testBundle)
         let dinosList  = try! await repository.getDinosList()
         
         #expect(dinosList.count == 2)
     }
     
-    @Test func invalid_json_file_throws_error() async throws {
-        let repository = JSONDinoFileRepository(resourceName: "invalid-json-file", bundle: .main)
+    @Test func file_not_found_throws_error() async throws {
+        let fileName   = TestFileResources.invalidJSONFile.rawValue
+        let repository = JSONDinoFileRepository(resourceName: fileName, bundle: .main)
         
-        await #expect(throws: DinoRepositoryError.fileNotFound("invalid-json-file")) {
+        await #expect(throws: DinoRepositoryError.fileNotFound(fileName)) {
             try await repository.getDinosList()
         }
     }
     
     @Test func invalid_json_format_throws_error() async throws {
-        let testBundle = Bundle(for: TestBundleLocator.self)
-        let repository = JSONDinoFileRepository(resourceName: "broken-dino-files", bundle: testBundle)
+        let testBundle   = Bundle(for: TestBundleLocator.self)
+        let fileName     = TestFileResources.invalidJSONFile.rawValue
+        let repository   = JSONDinoFileRepository(resourceName: fileName, bundle: testBundle)
         let genericError = NSError(domain: "-", code: 999)
         
         await #expect(throws: DinoRepositoryError.decodingError(genericError)) {
